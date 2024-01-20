@@ -1,0 +1,716 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Klee+One:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Pacifico&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font:'Jomhuria','Josefin Sans', 'Klee One','Della Respira', serif,'Nunito Sans', sans-serif,'Pacifico', cursive,'Source Sans 3', sans-serif;*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    transition: all 0.3s ease 0s;
+}
+
+html{
+    background-color: #FAF8ED;
+	scroll-behavior: smooth;
+    scroll-padding-top: 6rem ;
+    overflow-x: hidden;
+}
+
+*::before,*::after{
+    box-sizing: border-box;
+}
+
+/* header start*/
+header{
+    position: sticky;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 2rem 13%;
+    top:0 ;left: 0;right: 0;
+    overflow: hidden;
+    background: #FAF8ED;
+    z-index: 1000;
+    box-shadow: 0rem 0.5rem 6px rgba(0, 0, 0, 0.1);
+    height: 80px;
+}
+
+.logo{
+   font-size: 3.5rem;
+   color: #748E63;
+   font-weight: 400;
+   margin-right: auto;
+   letter-spacing: 0.16rem;
+   font-family: 'Jomhuria';
+}
+
+.logo span{
+    color: #F9B572;
+    font-family: 'Jomhuria';
+}
+
+nav a{
+    color: #748E63;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    margin-right: 3rem;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 800;
+}
+
+nav a:hover{
+    color: #F9B572;
+    transition: 0.2s;
+}
+
+header button {
+    background: #F9B572;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 800;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    width: 5.2rem;
+    height: 2.3rem;
+    font-size: 1.2rem;
+    color: #FAF8ED;
+}
+
+header button:hover::before{
+transform: scale(1.1);
+box-shadow: 0 0 15px #FFFFFF;
+}
+
+header button:hover{
+    cursor: pointer;
+    color: #FFFFFF;
+    width: 5.6rem;
+    height: 2.7rem;
+    font-size: 1.3rem;
+    box-shadow: 0 0 10px #F9B572;
+    text-shadow: 0 0 2px #FFFFFF;
+}
+/* header end*/
+
+
+
+/* Home start*/
+section.home{
+    width: 100%;
+    height: 740px;
+    background-color: #748E63;
+    -moz-border-radius: 5%;
+    -webkit-border-radius: 5%;
+    display: inline-flex;
+    right: 0;
+}
+section .pic{
+    width: 50%;
+    display: inline-flex;
+}
+section .pic img{
+    width: 420px;
+    height:420px;
+    border-radius: 50%;
+    margin: 10rem 0 0 6rem;
+    box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25); ;
+}
+
+section .title{
+    width: 50%;
+    height: auto;
+    padding:13rem 0 0 11rem;
+}
+
+section .title p{
+    font-family:'Nunito Sans';
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #FAF8ED;
+    font-size: 1.2rem;
+    padding-right: 7rem;
+    padding-left: 0.3rem;
+    display: block;
+}
+
+section .title h1{
+    font-family:'Source Sans 3', sans-serif;
+    color: #FAF8ED;
+    font-size: 80px;
+    line-height: 6.2rem;
+    letter-spacing: 1px;
+}
+/* Home end*/
+
+/* About start*/
+.about{
+    width: 100%;
+    height: auto;
+    display:inline-flexbox;
+    margin-top: 100px;
+    padding: 0 11rem;
+}
+
+.btn_container{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem 12rem;
+}
+
+.btn_container button{
+    background-color: transparent ;
+    border: solid #748E63 1.5px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    width: 8rem;
+    height: 3rem;
+    font-size: 17px;
+    color: #000000;
+    padding: 0 0.1rem;
+    align-content: center;
+    font-family: 'Nunito Sans',sans-serif;
+    letter-spacing: 1px;
+    text-transform:uppercase;
+}
+
+.btn_container button:hover::before{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #FFFFFF;
+    }
+.btn_container button:hover{
+    background-color: #748E63;
+    border: solid #748E63;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    width: 10rem;
+    height: 3rem;
+    font-size: 17px;
+    color: #FAF8ED;
+    padding: 0 0.1rem;
+    align-content: center;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+section .About_container{
+    width: 100%;
+    display: block;
+}
+section .content_container_flex{
+    width: 100%;
+}
+
+
+
+/*About*/
+#a{
+    display:inline-flex;
+    height: 638px;
+}
+
+section .about_container_left{
+    width: 50%;
+    padding: 0;
+    display: inline-flex;
+}
+
+.about_container_left img{
+    height: 560px;
+    padding-top: 3rem;
+    padding-left: 5rem;
+}
+
+
+section .about_container_right{
+    width: 50%;
+    padding: 10rem 0 12rem 2rem;
+}
+
+.about_container_right h2{
+    font-family:'Source Sans 3', sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+}
+
+.about_container_right p{
+    font-family: 'Nunito Sans',sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding-right: 2rem;
+
+}
+
+.button_cont{
+    display: inline-flex;
+    margin-top: 1rem;
+    padding: 0;
+}
+.example_f {
+    border-radius: 6px;
+    font-family:'Source Sans 3', sans-serif;
+    font-weight: 800;
+    background: linear-gradient(to right, #F9B572, #FAF8ED) !important;
+    border: none;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 15px 10px;
+    width: 170px;
+    transition: all 0.4s;
+    cursor: pointer;
+  }
+  .example_f span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+  }
+  .example_f span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .example_f:hover span {
+    padding-right: 18px;
+  }
+  .example_f:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  
+/*Education*/
+#b{
+    display: inline-flex;
+    padding: 50px 100px;
+    height: 638px;
+}
+
+
+.education_container{
+    display:inline-grid;
+    width: 48%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    margin: 0 1rem;
+    padding: 25px 0 0 0 ;
+    height: 31rem;
+}
+.uni_logo{
+   margin-left: 8rem;
+   width:150px;
+   height: 140px;
+}
+
+.uni_logo img{
+    width:150px;
+}
+
+.education_school{
+    text-align: center;
+    vertical-align: text-top;
+    padding: 0 30px;
+    height:10rem;
+}
+
+.education_year{
+    text-align: center;
+    vertical-align: text-top;
+    padding: 0 30px;
+}
+
+/*Experience*/
+#c{
+    display:inline-flex;
+    height: 638px;
+    padding: 40px 0 0 90px;
+}
+
+.experience_name{
+    display: flex;
+    width: 30rem;
+    height: 40rem;
+}
+#exp1{
+    display: grid;
+    padding-left: 6rem;
+    width: 40rem;
+
+}
+
+#exp3{
+    display: grid;
+    padding-left: 1rem;
+}
+.work_title{
+    height:13.3rem;
+  
+}
+
+.work_title h3{
+    font-family:'Source Sans 3', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.work_title p{
+    font-family: 'Nunito Sans',sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding-right: 2rem;
+}
+
+#exp2{
+    display: grid;
+    width: 3rem;
+}
+
+line{
+    fill: transparent;
+    stroke: #748E63;
+    stroke-width: 4;
+}
+
+
+.dashed {
+    stroke-dasharray: 12, 8.5;
+    fill: transparent;
+    stroke: #748E63;
+    stroke-width: 4;
+  }
+
+/*My Skill*/
+#d{
+    display:inline-flex;
+    padding: 30px 100px 30px 150px;
+    height: 638px;
+}
+
+#d h4{
+    font-family:'Source Sans 3', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+.skill_container{
+    display: grid;
+}
+
+.skill_container h5{
+    font-family:'Nunito Sans';
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 0 0 3px;
+}
+
+.progress-bar{
+    position: relative;
+    width: 500px;
+    height: 1.5em;
+    background-color: #748E63;
+    border-radius: 1.5em;
+    color: white;
+    overflow: hidden;
+    margin-bottom: 2px;
+}
+
+.progress-bar span{
+    position:absolute;
+    height: 100%;
+    background-color: #F9B572;
+    border-radius: 1.5em;
+    width: calc(var(--width, 0) * 1%);
+
+}
+/* About end*/
+
+/* Portfolio Start */
+.portfolio{
+    margin: 8rem 16rem ;
+}
+
+.portfolio h2{
+    font-family:'Source Sans 3', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.portfolio span{
+    font-family:'Source Sans 3', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    color: #748E63;
+    font-weight: 900;
+}
+
+.portfolio-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.portfolio-container .portfolio-box{
+    position:relative;
+    border-radius: 2rem;
+    box-shadow:0 0 1rem rgba(51, 51, 51, .6);
+    overflow: hidden;
+    display: flex;
+}
+
+.portfolio-box img{
+    width: 100%;
+    height: 12rem;
+    transition: .5s ease;
+}
+
+.portfolio-box:hover img{
+    transform: scale(1.1) ;
+}
+
+.portfolio-box .portfolio-layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, .6),#99B080);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 1.5rem;
+    transform: translateY(100%);
+    transition: .3s ease;
+}
+
+.portfolio-box:hover .portfolio-layer{
+    transform: translateY(0);
+}
+
+
+.portfolio-layer h4{
+    font-size: 2rem;
+    color: #333333;
+    font-weight: 800;
+    margin:1rem 0 0 0 ;
+}
+
+.portfolio-layer p{
+    font-family: 'Nunito Sans',sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin: .3rem 0 .6rem 0;
+}
+
+.portfolio-layer a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+
+/* Portfolio End */
+
+
+
+/*Contact Start*/
+
+.contact{
+    background-color: #99B080;
+    width: 100%;
+    height: 741px;
+}
+
+.contact-container{
+    background-color: #FAF8ED;
+    margin: 9rem 14rem;
+    height: 30rem;
+    width: 70%;
+    border-radius: .5rem;
+    display: inline-grid;
+    overflow: hidden;
+}
+
+.contact-bar{
+    background-color: #748E63;
+    height: 3.5rem;
+    display: flex;
+    width: 100%;
+    padding: .5rem 1rem;
+}
+
+.contact-bar line{
+    stroke: #99B080;
+    stroke-width: 15;
+    fill: transparent;
+    stroke-linecap: round;
+}
+
+
+.contact-info-container{
+    display: inline-flex;
+}
+
+.contact-info{
+    height:26.5rem;
+}
+
+#contact-left{
+    padding: 7rem 0 0 9rem;
+    width: 65%;
+}
+.contact-info h2{
+    font-family:'Source Sans 3', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #333333;
+    line-height: 2.5rem;
+}
+
+.contact-info p{
+    font-family:'Source Sans 3', sans-serif;
+    font-weight: 300;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+#contact-right{
+    width:35%;
+    padding: 3rem 3rem 0 0;
+}
+
+.contact-info input{
+    height: 2.5rem;
+    width: 80%;
+    margin: 1rem 0 0 0;
+    border: #99B080 solid;
+    border-radius: .5rem;
+    background: transparent;
+    padding: 0 0 0 1rem;
+}
+
+.contact-info textarea{
+    height: 6rem;
+    width: 80%;
+    margin: 1rem 0 0 0;
+    border: #99B080 solid;
+    border-radius: .5rem;
+    background: transparent;
+    padding: .5rem 0 0 1rem;
+}
+
+.contact-info .sendButton{
+    height: 2rem;
+    width: 20%;
+    margin: 1rem 0 0 0;
+    border-radius: .5rem;
+    background: #99B080;
+    padding: 0;
+}
+
+#send{
+    margin-left: 3.9rem;
+}
+
+/*Contact End*/
+
+
+/*Footer Start*/
+.footer{
+    width: 100%;
+    height: 8rem
+}
+.footer-container{
+    text-align: center;
+    height: 100%;
+    padding: 1.5rem 0 0 0;
+}
+
+.footer-container a{
+    color: #748E63;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 800;
+}
+
+.footer-container span{
+    font-size: 26px;
+    color: #F9B572;
+    margin: 0 8px;
+}
+
+.footer-container p{
+    color: #748E63;
+    font-size: .8rem;
+    letter-spacing: 1px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+}
+/*Footer End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+@media (max-width:991px){
+    html{
+
+    }
+
+    section.home{
+        width: 100%;
+        height: 740px;
+        background-color: #748E63;
+        -moz-border-radius: 5%;
+        -webkit-border-radius: 5%;
+        margin-top: 80px;
+    }
+
+}
+
+
+
