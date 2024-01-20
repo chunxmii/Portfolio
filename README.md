@@ -1,3 +1,3 @@
 # Portfolio
 
-Click to visit website: http://chunxmii.github.io/Portfolio/
+Click to visit website: https://chunxmii.github.io/Portfolio/
