@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Mimi Tseng Portfolio</title>
+    <style>@import url(/Users/mimi/Desktop/Portfolio/css/portfolio.css);</style>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!--Header Start-->
+    <header>
+        <a href="#" class="logo" >Mimi Tseng<span>.</span></a>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a> 
+        </nav>
+       <a class="btn" href="mailto:mimitseng1201@gmail.com"><button type="home_btn">Hire Me</button></a>
+    </header>
+    <!--Header End-->
+
+    <!--Home Start-->
+    <section class="home">
+        <div class="title">
+            <p>Hi! I am a </p>
+            <h1>Graphic & <br>UI/UX Designer</h1>
+            <p>Passionate about creating intuitive and aesthetic digital experiences</p>
+        </div>
+        <div class="pic">
+             <img alt="Profile Photo" src="Image/me.JPG">
+        </div>
+    </section>
+    <!--Home End-->
+
+    <!--About Start-->
+    <section class="about" id="about">
+        <div class="btn_container">
+            <button onclick="showDiv('a')" class="about_btn" id="btn1">About</button>
+            <button onclick="showDiv('b')" class="about_btn" id="btn2">Education</button>
+            <button onclick="showDiv('c')" class="about_btn" id="btn3">Experience</button>
+            <button onclick="showDiv('d')" class="about_btn" id="btn4">My Skill</button>
+        </div>
+        <div class="About_container">
+            <!-----------------About------------------------> 
+            <div class="content_container_flex" id="a">
+                <div class="about_container_left">
+                    <img alt="Self Picture" src="Image/IMG_58152.png">
+                </div>
+                <div class="about_container_right">
+                    <h2>About me more</h2>
+                    <p>Drawn to Rutgers University for its esteemed business 
+                    program and international diversity, I see it as the 
+                    gateway to both advancing my professional knowledge 
+                    and realizing my aspirations in a multicultural
+                    environment.</p>
+                    <div class="button_cont" style="align-self:center;"><a class="example_f" href="/Users/mimi/Desktop/Portfolio/file/Resume.pdf" download="MimiTseng_Reseme" target="_blank" rel="nofollow"><span>View Resume</a></div>
+                </div>
+
+            </div>
+            <!-----------------Education------------------------>
+            <div class="content_container_flex" id="b">
+                <div class="education_container" >
+                    <div class="uni_logo"><img alt="Rutgers_logo" src="Image/Rutgers_logo.png"></div>
+                    <div class="education_school">
+                        <h3>Rutgers Business School</h3>
+                        <p>Bachelor of Science Management Information System and
+                        Supply Chain Management Concentration
+                        <br>
+                        <br>GPA: 3.767
+                        <br>Honor: Dean List</p>
+                    </div>
+                    <div class="education_year" id="ru">
+                        <p>Sep 2021 - May2024 &nbsp; &nbsp;NJ, USA</p>
+                    </div>
+
+                </div>
+                <div class="line"></div>
+                <div class="education_container">
+                    <div class="uni_logo"><img alt="Tunghai_logo" src="Image/Tunghai_logo.png"></div>
+                    <div class="education_school">
+                        <h3>Tunghai University</h3>
+                        <p>Bachelor of Science Information Management
+                        <br>
+                        <br>
+                        <br>
+                        <br>GPA: 3.6 </p>
+                    </div>
+                    <div class="education_year" id="thu">
+                        <p>Sep 2019 - June 2021&nbsp; &nbsp;Taichung, Taiwan</p>
+                    </div>
+                </div>
+            </div>
+            <!-----------------Experience------------------------>
+            <div class="content_container_flex" id="c">
+                <div class="experience_name" id="exp1">
+                    <div class="work_title">
+                        <h3>Art Chair/News Member</h3>
+                        <p>May2020-May2021</p>
+                    </div>
+                    <div class="work_title">
+                        <h3>Video Editor</h3>
+                        <p>March2020-May2021</p>
+                    </div>
+                    <div class="work_title">
+                        <h3>Treasurer</h3>
+                        <p>May2023-Present</p>
+                    </div>
+                </div>
+                <div class="experience_name" id="exp2">
+                    <div class="work_title">
+                        <svg viewBox="0 0 110 570">
+                            <circle cx="55" cy="55" r="50" class="dashed"/>
+                            <circle cx="55" cy="55" r="35" stroke="transparent" stroke-width="2" fill="#F9B572"/>
+                            <line x1="55" y1="110" x2="55" y2="700" class="dashed"></line>
+                        </svg>
+                    </div>
+                    <div class="work_title">
+                        <svg viewBox="0 0 110 570">
+                            <circle cx="55" cy="55" r="50" class="dashed"/>
+                            <circle cx="55" cy="55" r="35" stroke="transparent" stroke-width="2" fill="#F9B572"/>
+                            <line x1="55" y1="110" x2="55" y2="700" class="dashed"></line>
+                        </svg>
+                    </div>
+                    <div class="work_title">
+                        <svg viewBox="0 0 110 570">
+                            <circle cx="55" cy="55" r="50" class="dashed"/>
+                            <circle cx="55" cy="55" r="35" stroke="transparent" stroke-width="2" fill="#F9B572"/>
+                            <line x1="55" y1="110" x2="55" y2="700" class="dashed"></line>
+                        </svg>
+                    </div>
+                </div>
+                <div class="experience_name" id="exp3">
+                    <div class="work_title">
+                        <h3>Inroduction</h3>
+                        <p></p>
+                    </div>
+                    <div class="work_title">
+                        <h3>Inroduction</h3>
+                        <p></p>
+                    </div>
+                    <div class="work_title">
+                        <h3>Inroduction</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <!-----------------My Skill------------------------>
+            <div class="content_container_flex" id="d">
+                <div style="display: grid;">
+                    <h4>My Skill</h4>
+                    <div class="skill_container">
+                        <h5>HTML</h5>
+                        <div class="progress-bar"><span style="--width: 85"></span></div>
+                    </div>
+                    <div class="skill_container">
+                        <h5>CSS</h5>
+                        <div class="progress-bar"><span style="--width: 80"></span></div>
+                    </div>
+                    <div class="skill_container">
+                        <h5>SQL</h5>
+                        <div class="progress-bar"><span style="--width: 65"></span></div>
+                    </div>
+                    <div class="skill_container">
+                        <h5>Microsoft Office</h5>
+                        <div class="progress-bar"><span style="--width: 85"></span></div>
+                    </div>
+                    <div class="skill_container">
+                        <h5>Python</h5>
+                        <div class="progress-bar"><span style="--width: 55"></span></div>
+                    </div>
+                    <div class="skill_container">
+                        <h5>Adobe illustrator/Photoshop/Premier</h5>
+                        <div class="progress-bar"><span style="--width: 80"></span></div>
+                    </div>
+                    <div class="skill_container">
+                        <h5>Graphic</h5>
+                        <div class="progress-bar"><span style="--width: 90"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+         // Function to hide all divs except the one with id 'a'
+        function hideAllDivsExceptA() {
+        var divs = document.querySelectorAll('.content_container_flex');
+        divs.forEach(function (div) {
+            if (div.id !== 'a') {
+                div.style.display = 'none';
+            } else {
+                div.style.display = 'inline-flex';
+            }
+        });
+        }
+
+        // Hide all divs except 'a' when the page is loaded
+        document.addEventListener("DOMContentLoaded", function () {
+        hideAllDivsExceptA();
+         });
+
+        function showDiv(divId) {
+          // Hide all divs
+          hideAllDivs();
+    
+          var selectedDiv = document.getElementById(divId);
+          if (selectedDiv) {
+          selectedDiv.style.display = "inline-flex";
+         } else if (selectedDiv = document.getElementById(b)){
+            div.style.display = 'inline-block';
+         }
+            // Explicitly set the display property of 'b' to "inline-block"
+          
+        }
+    
+        function hideAllDivs() {
+          // Get all div elements and hide them
+          var divs = document.querySelectorAll('.content_container_flex');
+          divs.forEach(function(div) {
+            div.style.display = 'none';
+          });
+        }
+        </script>  
+    </section>
+    <!--About End-->
+
+    <!--Portfolio Start-->
+    <section class="portfolio" id="portfolio">
+        <h2>Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+
+            <div class="portfolio-box">
+                <img src="Image/TechRetail.png">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Explain Something</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Image/Bakery.png">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Explain Something</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Image/thdcbook.png">
+                <div class="portfolio-layer">
+                    <h4>Graphic Design</h4>
+                    <p>Explain Something</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Image/Thdc.png">
+                <div class="portfolio-layer">
+                    <h4>Poster Design</h4>
+                    <p>Explain Something</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Image/parliament logo.png">
+                <div class="portfolio-layer">
+                    <h4>Logo Design</h4>
+                    <p>Explain Something</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!--Project End-->
+
+    <!--Contact Start-->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-bar">
+                <i class='bx bx-x' style='color:#ffffff;font-size: 2.5rem;' ></i>
+                <svg height="2.5em" width="100%">
+                    <line x1="570" y1="20" x2="640" y2="20"></line>
+                    <line x1="670" y1="20" x2="740" y2="20"></line>
+                    <line x1="770" y1="20" x2="870" y2="20"></line>
+                </svg>
+            </div>
+            <div class="contact-info-container">
+                <div class="contact-info" id="contact-left">
+                    <h2>Get In Touch</h2>
+                    <h2>Send me the message</h2>
+                    <p>I appreciate the offer and I am genuinely excited about
+                    <br/>the possibility of joining your team.</p>
+                </div>
+                <div class="contact-info" id="contact-right">
+                    <form action="mailto:mimitseng1201@gmail.com" method="post">
+                            <input type="text" name="name" placeholder="Name" title="Enter your Name" required>
+                            <input type="tel" name="phone" placeholder="Phone" title="Enter your Phone Number" required>
+                            <input type="email" name="email" placeholder="Email" title="Enter your Email" required>
+                            <textarea type="text" name="message" placeholder="Message" title="Enter Message" required></textarea>
+                            <input type="submit" name ="submit" value="Send" class="sendButton" id="send"> &nbsp; <input type="reset" name="reset" value="Clear" class="sendButton" id="clear">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact End-->
+
+    <!--Footer Start-->
+    <footer class="footer">
+        <div class="footer-container">
+            <a href="#">HOME</a><span>&#8226;</span><a href="#about">ABOUT</a><span>&#8226;</span><a href="#portfolio">PORTFOLIO</a><span>&#8226;</span><a href="#contact">CONTACT ME</a> 
+            <br/><br/><p>2023 &copy; Copyright: Mimi Tseng</p>
+        </div>
+    </footer>
+    <!--Footer End-->
+
+</body>
+</html>
