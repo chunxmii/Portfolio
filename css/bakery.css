@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Klee+One:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Pacifico&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font:'Jomhuria','Josefin Sans', 'Klee One','Della Respira', serif,'Nunito Sans', sans-serif,'Pacifico', cursive,'Source Sans 3', sans-serif;*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    transition: all 0.3s ease 0s;
+}
+
+html{
+    background-color: #FAF8ED;
+	scroll-behavior: smooth;
+    scroll-padding-top: 6rem ;
+    overflow-x: hidden;
+}
+
+*::before,*::after{
+    box-sizing: border-box;
+}
+
+/* header start*/
+header{
+    position: sticky;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 2rem 13%;
+    top:0 ;left: 0;right: 0;
+    overflow: hidden;
+    background: #FAF8ED;
+    z-index: 1000;
+    box-shadow: 0rem 0.5rem 6px rgba(0, 0, 0, 0.1);
+    height: 80px;
+}
+ 
+header .menu{
+    display: none;
+}
+
+header .menu i{
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+
+}
+
+.logo{
+   font-size: 3.5rem;
+   color: #748E63;
+   font-weight: 400;
+   margin-right: auto;
+   letter-spacing: 0.16rem;
+   font-family: 'Jomhuria';
+}
+
+.logo span{
+    color: #F9B572;
+    font-family: 'Jomhuria';
+}
+
+nav a{
+    color: #748E63;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    margin-right: 3rem;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 800;
+}
+
+nav a:hover{
+    color: #F9B572;
+    transition: 0.2s;
+}
+
+header button {
+    background: #F9B572;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 800;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    width: 5.2rem;
+    height: 2.3rem;
+    font-size: 1.2rem;
+    color: #FAF8ED;
+}
+
+header button:hover::before{
+transform: scale(1.1);
+box-shadow: 0 0 15px #FFFFFF;
+}
+
+header button:hover{
+    cursor: pointer;
+    color: #FFFFFF;
+    width: 5.6rem;
+    height: 2.7rem;
+    font-size: 1.3rem;
+    box-shadow: 0 0 10px #F9B572;
+    text-shadow: 0 0 2px #FFFFFF;
+}
+/* header end*/
+
+/* bakery start*/
+.bakery{
+    display: flex;
+    height: 700px;
+    padding: 5rem 5rem;
+
+}
+
+.bakery-left{
+    width: 50%;
+    padding: 8rem 0 0 7rem;
+}
+
+.bakery-left h1{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 3rem;
+
+}
+
+.swiper {
+    width: 30.3%;
+    height: 100%;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+/* bakery end*/
+
+
+/*Footer Start*/
+.footer{
+    width: 100%;
+    height: 8rem;
+    background-color: #748E63;
+    
+}
+.footer-container{
+    text-align: center;
+    height: 100%;
+    padding: 1.5rem 0 0 0;
+}
+
+.footer-container a{
+    color: #FAF8ED;;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 800;
+}
+
+.footer-container span{
+    font-size: 26px;
+    color: #F9B572;
+    margin: 0 8px;
+}
+
+.footer-container p{
+    color: #FAF8ED;
+    font-size: .8rem;
+    letter-spacing: 1px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+}
+/*Footer End*/
