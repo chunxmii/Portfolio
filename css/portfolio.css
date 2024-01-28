@@ -36,6 +36,17 @@ header{
     box-shadow: 0rem 0.5rem 6px rgba(0, 0, 0, 0.1);
     height: 80px;
 }
+ 
+header .menu{
+    display: none;
+}
+
+header .menu i{
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+
+}
 
 .logo{
    font-size: 3.5rem;
@@ -349,7 +360,7 @@ section .about_container_right{
     padding-left: 1rem;
 }
 .work_title{
-    height:13.3rem;
+    height:13.3em;
   
 }
 
@@ -386,6 +397,10 @@ line{
     stroke: #748E63;
     stroke-width: 4;
   }
+
+#exp3 p{
+    font-size: 15px;
+}
 
 /*My Skill*/
 #d{
@@ -435,7 +450,7 @@ line{
 
 /* Portfolio Start */
 .portfolio{
-    margin: 8rem 16rem ;
+    margin: 8rem 16rem;
 }
 
 .portfolio h2{
@@ -524,6 +539,7 @@ line{
     height: 2rem;
     background: #FFFFFF;
     border-radius: 50%;
+    color: #000000;
 }
 
 /* Portfolio End */
@@ -534,8 +550,9 @@ line{
 
 .contact{
     background-color: #99B080;
+    background-size: cover;
     width: 100%;
-    height: 741px;
+    margin-top: 0;
 }
 
 .contact-container{
@@ -695,22 +712,157 @@ line{
 
 
 /* media queries */
-
-@media (max-width:991px){
-    html{
-
+@media (max-width:1024px){
+    header {
+        padding:.5rem 3rem .5rem 2rem;
+    }
+    .logo{
+        display: flex;
+        font-size: 3rem;
+        width: 50%;
+        padding: 0 0 0 1rem;
+        margin: 0 0 0 2rem;
     }
 
-    section.home{
+    nav{
         width: 100%;
-        height: 740px;
-        background-color: #748E63;
-        -moz-border-radius: 5%;
-        -webkit-border-radius: 5%;
-        margin-top: 80px;
+        padding-left: 3rem;
     }
 
 }
 
 
 
+@media (max-width:768px){
+
+    header {
+        padding:.5rem 3rem .5rem 2rem;
+    }
+    .logo{
+        display: flex;
+        font-size: 3rem;
+        width: 100%;
+        padding: 0 0 0 1rem;
+        justify-content: center;
+    }
+    nav{
+        display: none ;
+    }
+
+    header .menu{
+        display: flex;
+    }
+}
+
+
+@media (max-width:425px){
+    html{
+        border: #000000 solid;
+    }
+    header{
+        padding: .5rem 1rem;
+    }
+    header .menu{
+        display: flex;
+    }
+
+    header .menu i{
+        font-size: 2rem;
+    }
+
+    .logo{
+        font-size: 2.5rem;
+        width: 100%;
+        padding: 0;
+    }
+
+    nav{
+        display: none;
+    }
+
+    header button {
+        background: #F9B572;
+        font-family: 'Source Sans 3', sans-serif;
+        font-weight: 800;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        width: 4rem;
+        height: 2.1rem;
+        font-size: .8rem;
+        color: #FAF8ED;
+        margin-bottom: .5rem;
+    }
+    
+    header button:hover::before{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #FFFFFF;
+    }
+    
+    header button:hover{
+        cursor: pointer;
+        color: #FFFFFF;
+        width: 4.2rem;
+        height: 2.5rem;
+        font-size: .9rem;
+        box-shadow: 0 0 10px #F9B572;
+        text-shadow: 0 0 2px #FFFFFF;
+    }
+}
+
+@media (max-width:375px){
+    html{
+        border: #000000 solid;
+    }
+    header{
+        padding: .5rem 1rem;
+    }
+    header .menu{
+        display: flex;
+    }
+
+    header .menu i{
+        font-size: 2rem;
+    }
+
+    .logo{
+        font-size: 2.5rem;
+        width: 100%;
+        padding: 0;
+    }
+
+    nav{
+        display: none;
+    }
+
+    header button {
+        background: #F9B572;
+        font-family: 'Source Sans 3', sans-serif;
+        font-weight: 800;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        width: 4rem;
+        height: 2.1rem;
+        font-size: .8rem;
+        color: #FAF8ED;
+        margin-bottom: .5rem;
+    }
+    
+    header button:hover::before{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #FFFFFF;
+    }
+    
+    header button:hover{
+        cursor: pointer;
+        color: #FFFFFF;
+        width: 4.2rem;
+        height: 2.5rem;
+        font-size: .9rem;
+        box-shadow: 0 0 10px #F9B572;
+        text-shadow: 0 0 2px #FFFFFF;
+    }
+
+
+
+
+}
