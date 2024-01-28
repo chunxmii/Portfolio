@@ -1,0 +1,181 @@
+
+<html>
+  <head>
+    <title>Product Page</title>
+    <style>
+		@import url(style.css);
+
+    .product_container{
+      display:block;
+      width: 100%;
+      height:80rem;
+      padding:0;
+
+    }
+    h1 {
+      text-align: center;
+      font-size: 70px;
+      font-family: 'Tinos', serif;
+      padding-top: 12rem;
+      }
+
+    h2{
+      margin-top: 1px;
+      display: block;
+      text-align: center;
+      font-size: 23px;
+      font-family: 'Kanit', sans-serif;
+    }
+    .product{
+      display: inline-block;
+      width: 24%;
+      height: 80rem;
+      margin-top: 2;
+      margin-left: 2;
+      padding: 4rem 3px 0 3px;
+      text-align: center;
+      vertical-align: text-bottom;
+     }
+
+     .img_container{
+      background-color: rgba(240, 240, 240, 0.7);
+      margin: 20 0;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 300px;
+      padding: 30px 0 ;
+      vertical-align: middle;
+
+
+     }
+     .product_img{
+      float: initial;
+      width: 190px;
+      max-height: 500px;
+      vertical-align: middle;
+
+     }
+
+     .p_product{
+      height: 300px;
+      font-size: 15px;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 23px;
+     }
+
+     .add-to-cart{
+      max-height: 95;
+	    display: inline-block;
+	    font-family: 'Kanit', sans-serif;
+	    background-color: #EEE9DA ;
+	    width: 16rem;
+	    font-size: 15px;
+	    color:#000000;
+      margin-top: 15px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    letter-spacing: 1.1px;
+	    border-radius: 15px;
+     }
+     .add-to-cart:hover{
+	    background-color: #b5a08b;
+	    color:#FFFFFF;
+      transition: 0.5s;
+
+     }
+
+    </style>
+  </head>
+  <body>
+<!-- header section start-->
+<header>
+	<a href="homepage.htm" class="logo" ><img src="images/tech_logo.png" alt="Logo" height="100px"></a>
+
+	<nav class="navbar">
+		<a href="About.htm">About Us</a>
+		<a href="product_page.htm">Products</a>
+		<a href="service.htm">Service</a>
+		<a href="contact_us.htm"><button>Contact Us</button></a>
+	</nav>
+
+	<div class="icons">
+		<a href="#"><img src="images/heart.png" alt="Heart" height="30"></a>
+		<a href="#"><img src="images/cart.png" alt="Cart" height="30"></a>
+	</div>
+</header>
+<!-- header section end-->
+  <section style="background-color:#BCCCD6; background-size: cover;">
+    <h1>Products</h1>
+    <div class="product_container">
+
+        <div class="product">
+         <h2>Apple Iphone 14</h2>
+         <div class="img_container">
+		     <img class="product_img" src="images/appleiphone14.png" alt="Apple Iphone 14" >
+         </div>
+         <div class="p_product">
+          <p >iPhone 14. With the most impressive dual-camera system on iPhone. Capture stunning photos in low light and bright light. Get peace of mind with groundbreaking safety features.</p>
+          <br/>
+          <p style="font-weight: 600; font-size: 20;">$900.00</p>
+        </div>
+          <a href="#" class="add-to-cart">Add to Cart</a>
+        </div>
+
+        <div class="product">
+          <h2>Lenovo P16 ThinkPad</h2>
+          <div class="img_container">
+          <img class="product_img" src="images/lenovothinkpad.png" alt="Lenovo 016 ThinkPad" >
+        </div>
+        <div class="p_product">
+          <p >Lenovo breaks new ground with the ThinkPad P16 (16" Intel) mobile workstation, a portable powerhouse for the ultimate professional. It's designed to deliver the highest levels of on-the-go performance, with up to 12th Gen Intel &#174; Core &trade; HX-class processors and up to NVIDIA RTX &trade; graphics. Plus, it's got a fresh appearance and style that you'll love.</p>
+          <br/>
+          <p style="font-weight: 600; font-size: 20;" >$3,899.00</p>
+        </div>
+          <a href="#" class="add-to-cart">Add to Cart</a>
+       </div>
+
+        <div class="product">
+          <h2>Amazon Echo Dot</h2>
+          <div class="img_container">
+            <img class="product_img" src="images/echodot.png" alt="Amazon Echo Dot" >
+          </div>
+          <div class="p_product">
+          <p >Echo Dot features improved speaker quality, delivering clearer vocals and deeper bass for rich vibrant sound. Just ask Alexa to play music, podcasts, and audiobooks and enjoy a dynamic audio experience anywhere in your home.</p>
+          <br/>
+          <p style="font-weight: 600; font-size: 20;">$40.00</p>
+        </div>
+          <a href="#" class="add-to-cart">Add to Cart</a>
+        </div>
+
+        <div class="product">
+          <h2>HP Office Jet Printer</h2>
+          <div class="img_container">
+          <img class="product_img" src="images/hpprinter.png" alt="HP Office Jet Printer" >
+        </div>
+        <div class="p_product">
+          <p>The HP OfficeJet 8022e is ideal for small businesses or your home office of 1-5 users. It delivers increased productivity with fast speeds, custom mobile Shortcuts and offers HP+: the smart printing system that keeps you more secure, more productive, and more sustainable than ever.</p>
+          <br/>
+          <p style="font-weight: 600; font-size: 20;">$179.00</p>
+        </div>
+          <a href="#" class="add-to-cart">Add to Cart</a>
+        </div>
+    </div>
+  </section>
+
+  <!-- footer start-->
+<footer class="footer1">
+	<ul>
+		<li><font face="Tinos" size="4">Address:</font>&nbsp;2428 Hilltop Haven Drive,Newark,Nj 07102
+		<li><font face="Tinos" size="4">Phone:</font> &nbsp;<a href="tel:+1 973-804-9248">+1 973-804-9248</a>
+		<li><font face="Tinos" size="4">Email:</font> &nbsp;<a href="mailto:info@techretail.com">info@techretail.com</a>
+	</ul>
+
+	<a href="homepage.htm" class="logo1" ><img src="images/tech_logo.png" alt="Logo" height="100px"></a>
+
+	<p><font face="Montserrat" size="1" color="000000">Copyright &#169; 2023 Tech Retail company Inc. All Rights Reserved</font>
+</footer>
+<!-- footer end-->
+</body>
+</html>

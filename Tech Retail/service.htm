@@ -1,0 +1,109 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tech Retail - Service</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style >@import url(style.css);
+	body{
+		margin-bottom: 0;
+	}
+	</style>
+</head>
+
+<body>
+<!-- header section start-->
+<header>
+	<a href="homepage.htm" class="logo" ><img src="images/tech_logo.png" alt="Logo" height="100px"></a>
+
+	<nav class="navbar">
+		<a href="About.htm">About Us</a>
+		<a href="product_page.htm">Products</a>
+		<a href="service.htm">Service</a>
+		<a href="contact_us.htm"><button>Contact Us</button></a>
+	</nav>
+
+	<div class="icons">
+		<a href="#"><img src="images/heart.png" alt="Heart" height="30"></a>
+		<a href="#"><img src="images/cart.png" alt="Cart" height="30"></a>
+	</div>
+</header>
+<!-- header section end-->
+
+<!-- contact us section start-->
+<section class="service">
+	<h1>Book a Support Service</h1>
+
+	<h2>Our specialist technicians are ready for you!</h2>
+<div id="bigcontainer">
+		<div id="contact_forml">
+			<br>
+			<form action="book.php" method="post" id="ff">
+			<fieldset>
+				<table width="700">
+					<tr>
+						<td width="300" ><p><label >First Name *:</label><input class="surveyi" type="text" name="fname" placeholder="Enter your First Name" title="Enter your First Name" required></td>
+						<td width="300" ><p><label>Last Name *:</label><input class="surveyi" type="text" name="lname" placeholder="Enter your Last Name" title="Enter your Last Name" required></td>
+					</tr>
+					<tr>
+						<td width="300"><label>Email *:</label><input class="surveyi" type="email" name="email" placeholder="Enter your Email" title="Enter your Email" required></td>
+						<td width="300"><label>Phone *:</label><input class="surveyi" type="tel" name="phone" placeholder="Enter your Phone Number" title="Enter your Phone Number" required></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<label> Prefered method of contact*: </label>
+						</td>
+					</tr>
+					<tr>
+						<td width="300"><span><label>Phone  </label><input type="radio" name="method" value="Phone"></span></td>
+						<td width="200"><span><label>Email  </label><input type="radio" name="method" value="Email"></span></td>
+					</tr>
+					<tr>
+						<td width="300"><span><label>Either </label><input type="radio" name="method" value="Either"></span></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+						<p style="color:white"> .</p>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+						<label> Reason for the service*: </label><input class="a" type="text" name="reason" placeholder="Enter your reason" title="Enter your reason" required>
+						</td>
+					</tr>
+					<tr>
+						<td width="300"><label>Please select date*: </label><input class="surveyi" type="date" name="date" required></td>
+						<td width="300"><label>Please select time*: </label><input class="surveyi" type="time" step="60"  name="time" required title="Select Your Time" placeholder="Select Your Time" title="Select Your Time"></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<label> Details: </label>
+							<p><textarea class="servicel" name="details" rows="10" cols="40"></textarea>
+						</td>
+					</tr>
+				</table>
+				<p><input type="Submit" name="Submit" value="Send it!" class="sendButton"> <input type="reset"  value="Clear" class="sendButton">
+			</fieldset>
+			</form>
+		</div>
+	</div>
+	
+</section>
+<!-- contact us section end-->
+	
+<!-- footer start-->
+<footer class="footer1">
+	<ul>
+		<li><font face="Tinos" size="4">Address:</font>&nbsp;2428 Hilltop Haven Drive,Newark,Nj 07102
+		<li><font face="Tinos" size="4">Phone:</font> &nbsp;<a href="tel:+1 973-804-9248">+1 973-804-9248</a>
+		<li><font face="Tinos" size="4">Email:</font> &nbsp;<a href="mailto:info@techretail.com">info@techretail.com</a>
+	</ul>
+
+	<a href="home.html" class="logo1" ><img src="images/tech_logo.png" alt="Logo" height="100px"></a>
+
+	<p><font face="Montserrat" size="1" color="000000">Copyright &#169; 2023 Tech Retail company Inc. All Rights Reserved</font>
+</footer>
+<!-- footer end-->	
+
+</body>
+</html>
