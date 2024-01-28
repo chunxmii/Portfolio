@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Mimi Tseng Portfolio</title>
+    <style>@import url(css/bakery.css);</style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <!--Header Start-->
+    <header>
+        <a href="index.html" class="logo" >Mimi Tseng<span>.</span></a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#portfolio">Portfolio</a>
+            <a href="index.html#contact">Contact</a> 
+        </nav>
+       <a class="btn" href="mailto:mimitseng1201@gmail.com"><button type="home_btn">Hire Me</button></a>
+    </header>
+    <!--Header End-->
+
+    <section class="bakery">
+        <div class="bakery-left">
+            <h1>Bakery Shop</h1>
+            <p></p>
+
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img alt="bakery-page1" src="Image/bakeryshop_Page_1.jpg"></div>
+              <div class="swiper-slide"><img alt="bakery-page1" src="Image/bakeryshop_Page_2.jpg"></div>
+              <div class="swiper-slide"><img alt="bakery-page1" src="Image/bakeryshop_Page_3.jpg"></div>
+              <div class="swiper-slide"><img alt="bakery-page1" src="Image/bakeryshop_Page_4.jpg"></div>
+              <div class="swiper-slide"><img alt="bakery-page1" src="Image/bakeryshop_Page_5.jpg"></div>
+              <div class="swiper-slide"><img alt="bakery-page1" src="Image/bakeryshop_Page_6.jpg"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+         <!-- Initialize Swiper -->
+         <script>
+            var swiper = new Swiper(".mySwiper", {
+              pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+          </script>
+    </section>
+
+     <!--Footer Start-->
+    <footer class="footer">
+        <div class="footer-container">
+            <a href="index.html">HOME</a><span>&#8226;</span><a href="index.html#about">ABOUT</a><span>&#8226;</span><a href="index.html#portfolio">PORTFOLIO</a><span>&#8226;</span><a href="index.html#contact">CONTACT ME</a> 
+            <br/><br/><p>2023 &copy; Copyright: Mimi Tseng</p>
+        </div>
+    </footer>
+    <!--Footer End-->
+</body>
