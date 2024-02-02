@@ -15,6 +15,7 @@ html{
 	scroll-behavior: smooth;
 	scroll-padding-top: 90px ;
 	overflow-x: hidden;
+	height: fit-content;
 }
 
 section{
@@ -251,7 +252,6 @@ footer{
 	align-items: center;
 	padding: 15px 3%;
 	background-color:#FFFFFF;
-	height: 46px;
 }
 
 footer ul{
