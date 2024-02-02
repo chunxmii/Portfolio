@@ -251,6 +251,7 @@ footer.footer1{
 	align-items: center;
 	padding: 15px 3%;
 	background-color:#FFFFFF;
+	height: fit-content;
 }
 
 footer ul{
