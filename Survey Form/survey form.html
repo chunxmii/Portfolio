@@ -1,0 +1,104 @@
+<DOCTYPE html>
+    <head>
+      <html lang="en">
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Cafe Menu</title>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <div class="container">
+        <header>
+            <h1 id="title">Streaming Services Survey Form</h1>
+            <p id="description"><i>Thank you for taking the time to help us collect tha data</i>
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label">Name</label>
+                <input id="name" type="text" name="name" placeholder="Enter your Name" title="Enter your Name" required>
+            </div>
+            <div class="form-group">
+                <label id="email-label">Email</label>
+                <input id="email" type="email" name="email" placeholder="Enter your Email" title="Enter your Email" required>
+            </div>
+            <div class="form-group">
+                <label id="number-label">Age</label>
+                <input id="number" type="number" min="12" max="99" name="number" placeholder="Age" title="Enter your Age" required>
+            </div>
+            <div class="form-group">
+                <p>Which streaming services do you typically use?</p>
+                <select id="dropdown" required>
+                    <option value="Netflix">Netflix</option>
+                    <option value="Disney+">Disney+</option>
+                    <option value="Hulu">Hulu</option>
+                    <option value="HBO Max">HBO Max</option>
+                    <option value="Amazon prime Video">Amazon prime Video</option>
+                    <option value="Apple TV+">Apple TV+</option>
+                    <option value="Paramount+">Paramount+</option>
+                    <option value="Peacock">Peacock</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>How comfortable are you with your current services?</p>
+                <label id="comfor-label">
+                    <input name="user-comfortability" value="Extremely Comfortable" type="radio" checked>Extremely Comfortable
+                </label>
+                <label id="comfor-label">
+                    <input name="user-comfortability" value="Quite Comfortable" type="radio">Quite Comfortable
+                </label>
+                <label id="comfor-label">
+                    <input name="user-comfortability" value="Moderate Comfortable" type="radio">Moderate Comfortable
+                </label>
+                <label id="comfor-label">
+                    <input name="user-comfortability" value="Slightly Comfortable" type="radio">Slightly Comfortable
+                </label>
+                <label id="comfor-label">
+                    <input name="user-comfortability" value="Not at all Comfortable" type="radio">Not at all Comfortable
+                </label>
+            </div>
+            <div class="form-group">
+                <p>What types of movies/tv series/documentary you usaully see on streaming service?</p>
+                <label id="types-label">
+                    <input name="feature" value="Action" type="checkbox">Action
+                </label>
+                <label id="types-label">
+                    <input name="feature" value="Thriller" type="checkbox">Thriller
+                </label>
+                <label id="types-label">
+                    <input name="feature" value="Science Fiction" type="checkbox">Science Fiction
+                </label>
+                <label id="types-label">
+                    <input name="feature" value="Horror" type="checkbox">Horror
+                </label>
+                <label id="types-label">
+                    <input name="feature" value="Historical Genre" type="checkbox">Historical Genre
+                </label>
+                <label id="types-label">
+                    <input name="feature" value="Adventure" type="checkbox">Adventure
+                </label>
+                <label id="types-label">
+                    <input name="feature" value="Romance" type="checkbox">Romance
+                </label>
+                <label id="types-label">
+                    <input name="feature" value="Fantasy" type="checkbox">Fantasy
+                </label>
+                <label id="types-label">
+                    <input name="feature" value="Comedy" type="checkbox">Comedy
+                </label>
+                <label id="types-label">
+                    <input name="feature" value="Crime" type="checkbox">Crime
+                </label>
+            </div>
+            <div class="form-group">
+                <p>Any comments or suggestions?</p>
+                <textarea id="comments" name="comment" placeholder="Enter your comment here..."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
+    </div>      
+    </body>
+    
+    </html>
